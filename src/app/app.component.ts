@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-pro';
+  myobject = {
+    gender:'male',
+    age:'33',
+    location:'KSA'
+
+  }
+  myarr=["Mohamed","Barah","Asmaa"];
 }
